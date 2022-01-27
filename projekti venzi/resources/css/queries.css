@@ -1,0 +1,162 @@
+
+
+/* Big tablet to 1200px(width smaller that the 1140px row )*/
+
+@media only screen and (max-width: 1200px) {
+    .main-nav{
+        margin-right: 20px;
+    }
+    .img-info{ 
+        padding-top: 16%;
+        padding-right: 40px;
+        
+    }
+    .hero-text-box{
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row{
+        padding: 0 2%;
+    }
+}
+
+/* Small tablets to big tablet : from 767px to 1023px */
+@media only screen and (max-width: 1023px) {
+    .img-info{ 
+        padding-left: 440px;
+        height: 40px;
+        width: 100%;
+    }
+    .img-info img{
+        width: 100%;
+        padding-top: 80%;
+        padding-left: 40px;
+        width: 90%;
+    }
+    .info h3{
+        width: 100%;
+        text-align: center;
+        padding-left: 70px;
+    }
+    .info h3:after{
+        margin-left: 95px;
+    }
+    .long-copy{
+        margin-left: 70px;
+    }
+ 
+    .info .btn-full{
+        width: 70%;
+        height: 50px;
+        display: block;
+        margin-left: 98px;
+        border-radius: 25px;
+        text-align: center;
+    } 
+    .info .btn-full:last-child{
+        margin-top: 15px;
+    }
+    .section-skills .padd{
+        padding-right: 110px;
+    }
+    .footer-nav li{
+        padding: 15px;
+        margin: 20px;
+        display: inline;
+    }
+    
+}
+
+
+
+
+
+
+/* Small phones to small tablets: from 481px to 767px */
+
+
+@media only screen and (max-width: 768px) {
+    .hero-text-box{
+        text-align: center;
+
+    }
+    .hero-text-box h1{
+        font-size: 120%;
+    } 
+    .hero-text-box p{
+        text-align: center;
+        position:relative;
+        left: 161px;
+        font-size: 80%;
+    }
+    .hero-text-box btn{
+        font-size: 80%;
+    }
+    .img-info {
+        display: none;
+    }   
+    .info h3:after{
+        
+        
+        width: 115px;
+        margin: 30px 30px;
+    }
+    .info .long-copy{
+        padding-bottom: 50px;
+    }
+     .btn-full{
+        padding: 20px 10px;
+        text-align: center;
+        line-height: 15px;
+        font-size: 15px;
+
+
+    }
+    
+    #about{
+        width: 100%;
+    }
+    .toggle{
+        display: block;
+    }
+    .main-nav{
+        width: 100%;
+        margin-top: -25px;
+        display: none;
+    }
+    .main-nav li{
+        display: block;
+        text-align: center;
+        padding: 5px;
+    }
+    
+    .active{
+        display: block; 
+    }
+    .hero-text-box{
+        margin-top: 70px;
+    }
+    .footer-nav ul li {
+        margin-bottom: 100px;
+    }
+    .social-links{
+        font-size: 150%;
+        padding-bottom: 30px;
+    }
+    .tabs{
+        width: 100%;
+    }
+    
+}
+
+/* SMALL phones : from 0 to 480px */
+
+@media only screen and (max-width: 480px) {
+    .hero-text-box {
+        text-align: center;
+    }
+   
+}
+
+
+
